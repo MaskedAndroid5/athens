@@ -1,0 +1,45 @@
+{
+  "measuredAt": "2026-10-12T00:14:43.677Z",
+  "platform": "linux",
+  "architecture": "x64",
+  "node": "v24.19.0",
+  "chromium": "154.0.8037.57",
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "hostLogicalCpus": 5,
+  "hostMemoryBytes": 35843661824,
+  "containerCpuQuota": "400000 100000",
+  "containerMemoryLimit": "34359738368",
+  "kernel": "6.18.44",
+  "viewport": [
+    1280,
+    720
+  ],
+  "workload": "80 components (20 solar, 60 homes), Structural Vision, 10s warmup then 60s sampling per quality",
+  "limitations": "Headless software rendering on a cloud container; not a physical integrated-GPU certification. This is a stationary inspection workload. Frame-time tails include runtime and software renderer contention.",
+  "results": [
+    {
+      "quality": "low",
+      "frames": 222,
+      "medianFrameMs": 259.69999999995343,
+      "p95FrameMs": 379.69999999995343,
+      "meanFps": 3.6884612636801233,
+      "drawCalls": 174,
+      "triangles": 16314,
+      "geometries": 178,
+      "pixelRatio": 0.5,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    },
+    {
+      "quality": "standard",
+      "frames": 198,
+      "medianFrameMs": 273.0999999998603,
+      "p95FrameMs": 507.3999999999068,
+      "meanFps": 3.29334196033685,
+      "drawCalls": 174,
+      "triangles": 16314,
+      "geometries": 178,
+      "pixelRatio": 0.5,
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+    }
+  ]
+}
